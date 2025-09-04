@@ -1,0 +1,30 @@
+﻿$VISION
+* File:		E:\Vissim\Vissim Project\Vissim Project.inpx
+* Comment:	
+* Date:		8/9/2025 12:47:45 AM
+* Application:	PTV Vissim 2025.00-07 [293344]
+* 
+* Table: Data Collection Results
+* 
+* SIMRUN: SimRun, Simulation run (Number of simulation run)
+* TIMEINT: TimeInt, Time interval (Time interval)
+* DATACOLLECTIONMEASUREMENT: DataCollectionMeasurement, Data collection measurement ( Data Collection Measurement)
+* ACCELERATION(ALL): Acceleration(All), Acceleration (All) (Acceleration of all vehicles of the the data collection measurement in the interval) [m/s2]
+* DIST(ALL): Dist(All), Distance (All) (Distance covered in the network of all vehicles of the data collection measurement in the interval) [m]
+* LENGTH(ALL): Length(All), Length (All) (Vehicle length of all vehicles of the the data collection measurement in the interval) [m]
+* VEHS(ALL): Vehs(All), Vehicles (All) (Count of vehicles of the the data collection measurement in the interval)
+* PERS(ALL): Pers(All), Persons (All) (Number of persons in the vehicle)
+* QUEUEDELAY(ALL): QueueDelay(All), Queue delay (All) (Queue delay of all vehicles of the the data collection measurement in the interval) [s]
+* SPEEDAVGARITH(ALL): SpeedAvgArith(All), Speed (arithmetic average) (All) (Arithmetic mean of the speed of all vehicles of this data collection measurement for this interval) [km/h]
+* SPEEDAVGHARM(ALL): SpeedAvgHarm(All), Speed (harmonic average) (All) (Harmonic mean of the speed of all vehicles of this data collection measurement for this interval) [km/h]
+* OCCUPRATE(ALL): OccupRate(All), Occupancy rate (All) (Time fraction [0..100%] of the time interval, where at least one data collection point of this data collection measurement was occupied by vehicles of the vehicles classes, which were selected in the evaluation configurarion.)
+* 
+* SimRun;TimeInt;DataCollectionMeasurement;Acceleration(All);Dist(All);Length(All);Vehs(All);Pers(All);QueueDelay(All);SpeedAvgArith(All);SpeedAvgHarm(All);OccupRate(All)
+* Simulation run;Time interval;Data collection measurement;Acceleration (All);Distance (All);Length (All);Vehicles (All);Persons (All);Queue delay (All);Speed (arithmetic average) (All);Speed (harmonic average) (All);Occupancy rate (All)
+*
+$DATACOLLECTIONMEASUREMENTEVALUATION:SIMRUN;TIMEINT;DATACOLLECTIONMEASUREMENT;ACCELERATION(ALL);DIST(ALL);LENGTH(ALL);VEHS(ALL);PERS(ALL);QUEUEDELAY(ALL);SPEEDAVGARITH(ALL);SPEEDAVGHARM(ALL);OCCUPRATE(ALL)
+3;0-3600;1;-0.09;277.83;3.16;248;248;141.14;20.06;12.78;84.69 %
+3;0-3600;2;-0.46;311.94;2.55;314;314;53.64;23.72;16.82;69.25 %
+3;0-3600;3;-0.25;191.89;2.05;315;315;85.15;22.33;10.33;68.35 %
+3;0-3600;4;-0.18;331.79;3.14;350;350;36.41;30.96;16.31;66.03 %
+

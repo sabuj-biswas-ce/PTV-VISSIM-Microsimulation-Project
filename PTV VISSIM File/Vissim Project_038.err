@@ -1,0 +1,4 @@
+﻿                  Warning	Simulation second 448.900: After 60.000 seconds of waiting for lane change the vehicle 670 (on Static Vehicle Route "1 - 1") was removed from link "10000" at position 11.019 m.	Network object type: Vehicle	Network object keys: 670
+                     Note	Stop the simulation? : &Yes
+                  Warning	Vehicle input 1 could not be finished completely (remain: 20 vehicles).	Network object type: Vehicle Input	Network object keys: 1
+                  Warning	Vehicle input 3 could not be finished completely (remain: 37 vehicles).	Network object type: Vehicle Input	Network object keys: 3
